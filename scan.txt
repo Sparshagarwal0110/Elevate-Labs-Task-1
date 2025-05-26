@@ -1,0 +1,29 @@
+# Nmap 7.95 scan initiated Mon May 26 15:30:48 2025 as: /data/data/com.termux/files/usr/bin/nmap -sS -oN scan.txt 192.168.1.0/24
+
+Nmap scan report for 192.168.1.1
+Host is up (0.0050s latency).
+Not shown: 993 filtered tcp ports (no-response)
+PORT     STATE    SERVICE
+21/tcp   open     ftp
+23/tcp   filtered telnet
+80/tcp   open     http
+443/tcp  open     https
+445/tcp  open     microsoft-ds
+7000/tcp open     afs3-fileserver
+8000/tcp open     http-alt
+
+Nmap scan report for 192.168.1.5
+Host is up (0.0056s latency).
+All 1000 scanned ports on 192.168.1.5 are closed
+
+Nmap scan report for 192.168.1.15
+Host is up (0.0060s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE    SERVICE
+5060/tcp filtered sip
+
+Nmap scan report for 192.168.1.16
+Host is up (0.0040s latency).
+All 1000 scanned ports on 192.168.1.16 are closed
+
+# Nmap done at Mon May 26 15:31:25 2025 -- 256 IP addresses (4 hosts up) scanned in 37.47 seconds
